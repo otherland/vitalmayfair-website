@@ -1,18 +1,18 @@
 baseURL = ""
 languageCode = "en-uk"
-title = "VitalMayfair"
+title = "Vital Mayfair"
 paginate = "10"
 theme = "mainroad"
 googleAnalytics = ""
 
 [Author]
-name = "Sally Jones"
-bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+name = "Marie D. Barnes"
+bio = "Marie D. Barnes is a wellness enthusiast and a passionate advocate for holistic living. With a background in health sciences and a heart devoted to spreading positivity, Marie is on a mission to empower individuals with the knowledge and inspiration they need to lead healthier, more fulfilling lives. As a part of the vitalmayfair community since its inception in 2022, Marie brings a blend of evidence-based insights and heart-centered advice to every article she writes. Join her in exploring the world of wellness and embark on a transformative journey towards a brighter, more vibrant you."
 avatar = "img/avatar.png"
 
 [Params]
 description = "Health & Wellness"
-copyright = "Sally Jones"
+copyright = "Marie D. Barnes - Vital Mayfair"
 opengraph = true
 schema = true
 twitter_cards = true
@@ -21,17 +21,32 @@ authorbox = true
 toc = true
 pager = true
 post_meta = [ "author", "date", "categories", "translations",]
-mainSections = [ "posts", "blog", "news",]
+mainSections = [ "posts", "blog", "news"]
 dateformat = "2006-01-02"
 googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+customCSS = ["css/custom.css"]
+highlightColor = "#4169E1" # Override highlight color
 
 [Params.logo]
-image = "img/placeholder.png"
-title = "Alexander Mastery"
-subtitle = "Reach Your Dreams"
+title = "Vital Mayfair"
+subtitle = "Health & Wellness"
 
 [Params.sidebar]
 home = "right"
 list = "left"
 single = "right"
 widgets = [ "search", "recent", "categories", "taglist", "social", "languages",]
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/about-us/"
+
+[[menu.main]]
+  name = "Health"
+  url = "/categories/health/"

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="main" role="main">
+	<div class="warning">
+		<h1 class="warning__headline">Oops! Page not found.</h1>
+		<p class="warning__text">{{ T "404_text" }} <a href="{{ "" | relLangURL }}">{{ T "404_linktext" }}</a>.</p>
+		<p class="warning__text">If you are not redirected, <a href="/">click here</a>.</p>
+	</div>
+	<script>
+	    window.location.href = "/";
+	</script>
+</main>
+{{ end }}
