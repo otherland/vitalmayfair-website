@@ -1,0 +1,37 @@
+baseURL = ""
+languageCode = "en-uk"
+title = "VitalMayfair"
+paginate = "10"
+theme = "mainroad"
+googleAnalytics = ""
+
+[Author]
+name = "Sally Jones"
+bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+avatar = "img/avatar.png"
+
+[Params]
+description = "Health & Wellness"
+copyright = "Sally Jones"
+opengraph = true
+schema = true
+twitter_cards = true
+readmore = true
+authorbox = true
+toc = true
+pager = true
+post_meta = [ "author", "date", "categories", "translations",]
+mainSections = [ "posts", "blog", "news",]
+dateformat = "2006-01-02"
+googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+
+[Params.logo]
+image = "img/placeholder.png"
+title = "Alexander Mastery"
+subtitle = "Reach Your Dreams"
+
+[Params.sidebar]
+home = "right"
+list = "left"
+single = "right"
+widgets = [ "search", "recent", "categories", "taglist", "social", "languages",]
