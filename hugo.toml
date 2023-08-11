@@ -1,9 +1,9 @@
-baseURL = ""
+baseURL = "https://vitalmayfair.com"
 languageCode = "en-uk"
 title = "Vital Mayfair"
 paginate = "10"
 theme = "mainroad"
-googleAnalytics = ""
+googleAnalytics = "G-QYQXBG43KS"
 
 [Author]
 name = "Marie D. Barnes"
